@@ -1,6 +1,6 @@
 # EFK hosted on kubernetes
 
-###Branches: 
+### Branches: 
 - **```main```** : We have the README.md file which is a knowldege base for this repository 
   <br>
 
@@ -78,7 +78,11 @@ kubectl port-forward service/elasticsearch-master 9200 -n efk
 
 ## Steps to provision elasticsearch, FlauntD and Kibana on minikube cluster using install-with-menifest branch
 - Clone this repository on local and switch to branch install-with-menifest
-- 
+- run terraform init
+- run terraform plan and review the resource creation
+- run terraform apply to create the resources
+- follow last 3 steps of install-with-helm branch to setup retention policy. 
+> **_NOTE:_** if needed we can also use kubectl apply as we have the kubernetes manifest in this branch.
 - 
 
 
