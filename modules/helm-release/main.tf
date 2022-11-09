@@ -5,7 +5,6 @@ resource "helm_release" "my-applications" {
   repository = var.repository
   chart      = var.chart
   namespace  = var.namespace
-  create_namespace = var.create_namespace
   values = [
     file("${path.vars}/esvalues.yaml")
   ]

@@ -1,4 +1,4 @@
-variable "helm-application" {}
-variable "namespace-name" {}
+variable "application-name" {}
+variable "name" {}
 
 
