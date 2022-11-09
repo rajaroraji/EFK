@@ -11,8 +11,7 @@
 - Ensure all the pre-requisites are installed
 - Start the docker process on MAC and allow required priviliges
 - run ```minikube start```
-- verify minikube status using ``` minikube status```
-  - it should show you an output like below
+- verify minikube status using ``` minikube status``` and it should show you an output like below
   ```
   minikube status
   minikube
