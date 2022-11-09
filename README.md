@@ -83,7 +83,6 @@ kubectl port-forward service/elasticsearch-master 9200 -n efk
 - run ```terraform apply``` to create the resources
 - follow last 3 steps of install-with-helm branch to setup retention policy. 
 > **_NOTE:_** if needed we can also use kubectl apply as we have the kubernetes manifest in this branch.
-- 
 
 
 
