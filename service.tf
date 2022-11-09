@@ -1,3 +1,8 @@
+provider "kubernetes" {
+  config_path    = "~/.kube/config"
+}
+
+
 
 resource "kubernetes_stateful_set" "es_cluster" {
   metadata {
