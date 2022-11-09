@@ -10,3 +10,13 @@
   ```
 - Install kubectl to interact with Kuberneets cluster using Homebrew ``` brew install kubectl ```
 
+
+## Steps to start minikube cluster
+- Ensure all the pre-requisites are installed
+- run ```minikube start```
+
+## Steps to provision elasticsearch, FlauntD and Kibana on minikube cluster
+-
+-
+-
+
