@@ -1,9 +1,3 @@
-provider "helm" {
-  kubernetes {
-    config_path = "~/.kube/config"
-  }
-}
-
 resource "helm_release" "my-applications" {
 
   name = var.application-name
@@ -13,6 +7,6 @@ resource "helm_release" "my-applications" {
   namespace  = var.namespace
   create_namespace = var.create_namespace
   values = [
-    file("${path.vars}/values.yaml")
+    file("${path.vars}/esvalues.yaml")
   ]
 }
